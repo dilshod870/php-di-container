@@ -1,0 +1,14 @@
+[2025-10-15 11:23:08] INFO HomeController@index served {"users_count":2}
+[2025-10-15 11:24:01] INFO HomeController@index served {"users_count":2}
+[2025-10-15 11:24:01] INFO HomeController@index served {"users_count":2}
+[2025-10-15 11:24:02] INFO HomeController@index served {"users_count":2}
+[2025-10-15 11:24:02] INFO HomeController@index served {"users_count":2}
+[2025-10-15 11:24:02] INFO HomeController@index served {"users_count":2}
+[2025-10-15 11:24:25] INFO HomeController@index served {"users_count":2}
+[2025-10-15 11:31:30] INFO hello called {"name":"Alice","age":30}
+[2025-10-15 11:31:31] INFO hello called {"name":"Alice","age":30}
+[2025-10-15 11:31:32] INFO hello called {"name":"Alice","age":30}
+[2025-10-15 11:31:32] INFO hello called {"name":"Alice","age":30}
+[2025-10-15 11:32:53] INFO hello called {"name":"Alice","age":30}
+[2025-10-15 11:32:54] INFO hello called {"name":"Alice","age":30}
+[2025-10-15 11:32:54] INFO hello called {"name":"Alice","age":30}
