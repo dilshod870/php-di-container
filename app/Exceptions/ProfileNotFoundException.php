@@ -1,0 +1,1 @@
+<?php namespace App\Exceptions; class ProfileNotFoundException extends AddressServiceException { public function __construct($message = "Profile not found", $code = 0, Exception $previous = null) { parent::__construct($message, $code, $previous); } }
