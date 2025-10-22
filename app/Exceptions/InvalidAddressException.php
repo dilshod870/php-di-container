@@ -1,0 +1,1 @@
+<?php namespace App\\Exceptions; class InvalidAddressException extends AddressServiceException { public function __construct($message = "Invalid address", $code = 0, Exception $previous = null) { parent::__construct($message, $code, $previous); } }
