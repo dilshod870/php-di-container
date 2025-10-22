@@ -15,7 +15,7 @@ return function (Container $container): void {
     });
 
     // Классы можно не указывать явно, автосвязывание создаст их автоматически:
-    $container->bind(UserRepository::class);
-    $container->bind(UserService::class);
-    $container->bind(HomeController::class);
+    //$container->bind(UserRepository::class);
+    //$container->bind(UserService::class);
+    //$container->bind(HomeController::class);
 };

@@ -145,7 +145,12 @@ class Container
     /**
      * Построить объект по имени класса с автосвязыванием зависимостей.
      *
+     * @param string $class
      * @param array<string, mixed> $parameters
+     * @return mixed
+     * @throws \App\Container\Exceptions\ContainerException
+     * @throws \App\Container\Exceptions\NotFoundException
+     * @throws \ReflectionException
      */
     protected function build(string $class, array $parameters = []): mixed
     {

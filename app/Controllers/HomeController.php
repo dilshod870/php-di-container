@@ -49,13 +49,8 @@ class HomeController
     // GET /users/{id:\d+}
     public function user(int $id): array
     {
-        $user = null;
-        foreach ($this->users->listUsers() as $u) {
-            if ((int)$u['id'] === $id) {
-                $user = $u;
-                break;
-            }
-        }
+
+        $user = $this->users->getUser($id);
 
         if (!$user) {
             return ['error' => 'User not found', 'id' => $id];

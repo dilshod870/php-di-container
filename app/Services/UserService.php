@@ -17,4 +17,9 @@ class UserService
     {
         return $this->users->all();
     }
+
+    public function getUser(int $id): array
+    {
+        return $this->users->getFindOrFail($id);
+    }
 }

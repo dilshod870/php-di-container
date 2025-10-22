@@ -11,6 +11,10 @@ require __DIR__ . '/../bootstrap/autoload.php';
 
 // Создаём Request из PHP-глобалок
 $request = Request::fromGlobals();
+//
+    echo '<pre>';
+    print_r($container);
+    exit;
 
 // Создаём роутер и регистрируем маршруты
 $router = new Router($container);
@@ -23,6 +27,9 @@ $routes($router);
 // Диспетчеризация
 try {
     $result = $router->dispatch($request);
+//    echo '<pre>';
+//    var_dump($result);
+//    exit;
     // Ответы: массив => JSON, строка => text/plain, иначе JSON по умолчанию
     if ($result instanceof \Stringable) {
         header('Content-Type: text/plain; charset=utf-8');
